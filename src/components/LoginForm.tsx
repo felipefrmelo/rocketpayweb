@@ -72,7 +72,7 @@ export const LoginForm = ({ onSuccess }: IloginForm) => {
         {InputWrapper("nickname", "Nickname", "text")}
         <PasswordField errors={errors?.password} onChange={handleChange} />
         <Button type="submit" size="lg" fontSize="md">
-          Sign in
+          Ignite
         </Button>
       </Stack>
     </form>

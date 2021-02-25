@@ -69,7 +69,7 @@ export const PasswordField = React.forwardRef<HTMLInputElement, IPasswordField>(
             name="password"
             type={isOpen ? "text" : "password"}
             autoComplete="current-password"
-            required
+            
             {...props}
           />
         </InputGroup>
