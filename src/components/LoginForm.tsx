@@ -66,7 +66,7 @@ export const LoginForm = ({ onSuccess }: IloginForm) => {
       }}
     >
       <Stack spacing="6">
-        {InputWrapper("email", "Email", "email")}
+        {InputWrapper("email", "Email", "text")}
         {InputWrapper("name", "Name ", "text")}
         {InputWrapper("age", "Age", "number")}
         {InputWrapper("nickname", "Nickname", "text")}
